@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:#ffade6;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#ffade6;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:#ffade6;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Create List</title>
+</head>
+
+<body style="background-color:#ffade6">
+<section>
+	<h1>New Task</h1>
+	
+	<form action="Insert" method="POST">
+	
+		Task: <input type="text" name="Task"> <br />
+		TaskType: <input type="text" name="Tasky"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+	<form action="SearchJSP.jsp" method="POST">	
+		<input type="submit" value="View Existing Task" />
+	</form>
+	
+
+</section>
+</body>
+</html>
